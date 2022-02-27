@@ -1,1 +1,61 @@
-<!-- week 4 -->
+<!-- week 4 --> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="assests/style.css">
+    <title> Java Quiz </title>
+</head>
+<body>
+ <nav> 
+     <h3> View high scores </h3>  
+   <form> 
+    <input type="button" value="Quiz Timer" id="timer"> 
+   </form> 
+ </nav> 
+
+<!--  <main> 
+    <div></div> 
+    <ul class="answers">
+
+    </ul> -->
+
+    <section id="container" class="container"> 
+    
+    <div id="start" class="container"> 
+    <h1> Welcome to a Quiz about Fordham</h1> 
+    <p> we were to cheap to hire the guy who does lorem ipsum, we also dont know latin very well
+        either. But if your really going to give us shit for not having a more professional place holder, than 
+        talk to Vidur, but hes on his honeymoon with Jack. </p>
+    <button id="submit" class="btn"> Start the quiz that wastes five minutes of your life. </button> 
+    </div> 
+    
+    <div id="questioncontainer" class="hide"> 
+    <div id="question" class="container"> 
+       Question
+    </div> 
+
+    <div id="answers">  
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+    </div>
+    </div> 
+
+
+    <div id="score" class="container hide"> 
+      <h3>  you really do not value your time? well here is your final score: </h3> 
+      <h1 id="scoreH"> </h1> 
+      <form> <input type="text" value="name">  
+        <input type="button" value="submit" id="savehighscore">
+    </form>
+    </div>
+    </section>
+ 
+    
+    <script src="./assests/java.js"></script>
+</body>
+</html>
